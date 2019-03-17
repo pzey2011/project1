@@ -47,19 +47,23 @@ table {
     font-family: 'HelveticaNeue-Thin';
     src: local('HelveticaNeue Thin.ttf'), url('HelveticaNeue Thin.ttf') format('opentype');
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 * {
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
-#main{
+
+#main {
     background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/header-background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-.container{
+
+.container {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
@@ -67,70 +71,84 @@ body {
     overflow: hidden;
     padding: 40px 20px;
 }
-.logo{
-    float:left;
+
+.logo {
+    float: left;
 }
-.navbar{
-    float:right;
+
+.navbar {
+    float: right;
 }
-.nav li{
+
+.nav li {
     display: inline-block;
 }
-.nav li a{
-    color:white;
+
+.nav li a {
+    color: white;
     margin-left: 5px;
     border-bottom: 4px solid white transparent;
     text-decoration: none;
     padding-bottom: 3px;
 }
-.nav li a:hover{
+
+.nav li a:hover {
     border-bottom: 4px solid white;
     transition: border-bottom 0.1s, color 0.1s;
 }
-.imgs{
+
+.imgs {
     float: right;
     position: absolute;
     right: -135px;
 }
-.cta{
+
+.cta {
 
     display: inline-block;
     margin-top: 90px;
 }
-.mobile-app-img{
+
+.mobile-app-img {
     width: 85%;
     position: relative;
     margin-bottom: -240px;
 }
-h2{
+
+h2 {
     font-size: 52px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.info-para{
+
+.info-para {
     font-family: 'HelveticaNeue-Thin';
-    font-size:36px;
+    font-size: 36px;
     color: white;
     line-height: 40px;
     margin-top: 50px;
     margin-bottom: 55px;
 }
-.cta-button{
+
+.cta-button {
     background-color: #282828;
     color: white;
     text-decoration: none;
     padding: 23px 35px;
     border-radius: 50px;
 }
-.cta-info{
+
+.cta-info {
     float: left;
     width: 60%;
     padding-right: 150px;
 }
-.cta-button-img{
+
+.cta-button-img {
     vertical-align: middle;
     padding-right: 20px;
 }
-#main h2{
+
+#main h2 {
     color: white;
 }
